@@ -12,7 +12,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
   Serial.println(++count);
   Serial.println(toggle);
   toggle = toggle_state(!toggle);
